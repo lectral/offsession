@@ -316,7 +316,7 @@ inventory:
 scenes:
   - id: start
     title: "The Gates of Yore"
-    icon: "castle"
+    icon: "castle-emblem"
     description: |
       You stand before the towering gates of the Forgotten Citadel. Ancient stone walls rise high into the mist, their surfaces covered in moss and mysterious runes. The iron gates hang partially open, creaking ominously in the wind.
 

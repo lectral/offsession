@@ -22,7 +22,7 @@
 ## Demo
 
 - Home app: https://offsession.ryju.pl/
-- Example adventure: https://offsession.ryju.pl/?adventure=serpent-chaos-296
+- Example adventure: https://offsession.ryju.pl/?adventure=storm-void-643
 
 ## What this is
 
