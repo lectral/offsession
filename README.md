@@ -15,6 +15,14 @@
   <img alt="YAML adventures" src="https://img.shields.io/badge/Adventures-YAML-7c3aed?style=for-the-badge&logo=yaml&logoColor=white">
   <img alt="Docker ready" src="https://img.shields.io/badge/Docker-ready-0ea5e9?style=for-the-badge&logo=docker&logoColor=white">
 </p>
+<p align="center">
+      <img src="public/screen_0.png" alt="Gameplay (Theme 2)" width="50%" />
+<p align="center">
+
+## Demo
+
+- Home app: https://offsession.ryju.pl/
+- Example adventure: https://offsession.ryju.pl/?adventure=serpent-chaos-296
 
 ## What this is
 
@@ -60,22 +68,16 @@ That makes downtime feel authored, memorable, and cheap to produce.
       <p><strong>Completion screen</strong><br/>Final reward, closing fiction, and mechanical payoff.</p>
     </td>
     <td width="50%">
-      <img src="public/screen_2.png" alt="Gameplay (Theme 2)" />
-      <p><strong>Gameplay</strong><br/>Scene text, inventory, gated choices, and themed presentation.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
       <img src="public/screen_3.png" alt="Adventure list screen" />
       <p><strong>Adventure library</strong><br/>Create, continue, replay, clone, or delete adventures.</p>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <img src="public/screen_4.png" alt="Adventure completion screen" />
       <p><strong>Completion screen</strong><br/>Final reward, closing fiction, and mechanical payoff.</p>
     </td>
-  </tr>
-  <tr>
-    <td width="50%">
+        <td width="50%">
       <img src="public/screen_5.png" alt="Skill check preview screen" />
       <p><strong>Skill check preview</strong><br/>Branching challenge screens with clear stakes, roll setup, and outcomes.</p>
     </td>
