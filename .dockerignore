@@ -1,0 +1,11 @@
+.git
+.next
+node_modules
+dev.log
+server.log
+.env
+db/*.db
+download
+examples
+mini-services
+worklog.md

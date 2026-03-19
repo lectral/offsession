@@ -1,0 +1,30 @@
+services:
+  offsession:
+    image: ${OFFSESSION_IMAGE}
+    pull_policy: always
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      NEXT_TELEMETRY_DISABLED: "1"
+      HOSTNAME: 0.0.0.0
+      PORT: "3000"
+      DATABASE_URL: ${DATABASE_URL:-file:../db/custom.db}
+      APP_BASE_URL: ${APP_BASE_URL:-}
+      DISCORD_WEBHOOK: ${DISCORD_WEBHOOK:-}
+    expose:
+      - "3000"
+    volumes:
+      - offsession-db:/app/db
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - fetch('http://127.0.0.1:3000/api').then((response) => { if (!response.ok) process.exit(1) }).catch(() => process.exit(1))
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+volumes:
+  offsession-db:

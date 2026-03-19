@@ -1,0 +1,35 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Adventure {
+  id                String      @id
+  title             String
+  adminPasswordHash String
+  playerPasswordHash String?
+  yamlContent       String
+  theme             String
+  createdAt         DateTime    @default(now())
+  gameStates        GameState[]
+}
+
+model GameState {
+  id             String   @id
+  adventureId    String
+  adventure      Adventure @relation(fields: [adventureId], references: [id], onDelete: Cascade)
+  currentSceneId String
+  counters       String   // JSON string
+  inventory      String   // JSON string
+  usedExits      String   // JSON string
+  history        String   // JSON string
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
