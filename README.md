@@ -56,11 +56,11 @@ That makes downtime feel authored, memorable, and cheap to produce.
 <table>
   <tr>
     <td width="50%">
-      <img src="public/screen_1.png" alt="Adventure completion screen" />
+      <img src="public/screen_1.png" alt="Gameplay (Theme 1)" />
       <p><strong>Completion screen</strong><br/>Final reward, closing fiction, and mechanical payoff.</p>
     </td>
     <td width="50%">
-      <img src="public/screen_2.png" alt="Adventure gameplay screen" />
+      <img src="public/screen_2.png" alt="Gameplay (Theme 2)" />
       <p><strong>Gameplay</strong><br/>Scene text, inventory, gated choices, and themed presentation.</p>
     </td>
   </tr>
@@ -70,8 +70,14 @@ That makes downtime feel authored, memorable, and cheap to produce.
       <p><strong>Adventure library</strong><br/>Create, continue, replay, clone, or delete adventures.</p>
     </td>
     <td width="50%">
-      <img src="public/screen_4.png" alt="Skill challenge screen" />
-      <p><strong>Skill checks</strong><br/>Branching challenge screens with clear stakes and outcomes.</p>
+      <img src="public/screen_4.png" alt="Adventure completion screen" />
+      <p><strong>Completion screen</strong><br/>Final reward, closing fiction, and mechanical payoff.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="public/screen_5.png" alt="Skill check preview screen" />
+      <p><strong>Skill check preview</strong><br/>Branching challenge screens with clear stakes, roll setup, and outcomes.</p>
     </td>
   </tr>
 </table>
